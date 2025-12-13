@@ -1,0 +1,75 @@
+.projectSection {
+    border-bottom: 1px solid #717171;
+    width: 100%;
+    padding: 40px 10%;
+}
+
+.projectSectionHeading {
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--font);
+    margin-bottom: 30px;
+    color: var(--text);
+    text-align: center;
+}
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+
+.cards {
+    width: 30%;
+    background-color: var(--text);
+    box-shadow: 7px 11px 17px 0px rgba(125, 125, 125, 0.38);
+    border: 5px solid var(--text);
+
+}
+
+.cardImg {
+    width: 100%;
+    height: 200px;
+}
+
+.githubBtn {
+    border: 3px solid var(--secondary);
+    color: var(--primary);
+    font-weight: light;
+}
+
+.githubBtn:hover {
+    background-color: var(--secondary);
+    border: none
+}
+
+.projectTitle {
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: var(--font);
+    color: var(--primary);
+}
+
+.projectDesc {
+    font-size: 16px;
+    font-family: var(--font);
+    color: var(--primary);
+}
+
+.devTools span {
+    font-family: var(--font);
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: rgba(92, 207, 92, 0.4);
+    text-wrap: nowrap;
+    padding: 5px;
+    color: var(--primary);
+}
+
+.devTools {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}

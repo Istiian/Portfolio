@@ -1,0 +1,56 @@
+.landingSection{
+    width: 100%;
+    min-height: 93vh;
+    padding-inline: 10%;
+    
+    border-bottom: 1px solid #717171;
+    
+}
+.greetings{
+    font-size: 20px;
+    color: var(--secondary);
+    font-family: var(--font);
+}
+
+.header{
+    font-size: 75px;
+    color: var(--text);
+    font-family: var(--font);
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.desc{
+    font-size: 20px;
+    color: var(--text);
+    font-family: var(--font);
+    text-align: left;
+    width: 80%;
+}
+
+.mypic{
+    max-width: 650px;
+    max-height: 550px;
+    transform: rotate(5deg);
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    margin: 50px auto;
+}
+
+.GithubBtn{
+    background-color: var(--accent);
+    color: var(--primary);
+    font-family: var(--font);
+    border: none;
+    margin-top: 20px;
+}
+
+.GithubBtn:hover{
+    background-color: var(--secondary);
+    color: var(--primary);
+    font-family: var(--font);
+    border: none;
+}
+

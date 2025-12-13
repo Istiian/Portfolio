@@ -1,0 +1,44 @@
+
+.navLink{
+    color: var(--text);
+    font-family: var(--font);
+    font-size: 20px;
+    text-align: center;
+    
+}
+.navLink:hover{
+    color: var(--secondary);
+}
+.fa-bars:hover{
+    color: var(--text);
+}
+
+.title{
+    font-size: 35px;
+    font-family: var(--font);
+    color: var(--accent);
+    text-decoration: none;
+    font-family: var(--font);
+    font-weight: bold;
+}
+.nav-item:nth-child(1) .nav-link { 
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 20px;
+}
+
+.navbar{
+    width: 100%;
+    padding: 0;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: rgba(44, 44, 44, .99);
+    border-bottom: 1px solid #393939;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 40px;
+    color: var(--text);
+}
+
