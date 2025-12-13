@@ -1,0 +1,42 @@
+.certificateSection{
+    width: 100%;
+    padding: 40px 10%;
+    border-bottom: 1px solid #717171;
+}
+
+.sectionHeading{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: var(--font);
+    margin-bottom: 30px;
+    color: var(--text);
+    text-align: center;
+}
+
+.itemName{
+    font-size: 18px;
+    font-family: var(--font);
+    color: var(--text);
+    list-style-type: disc;
+}
+
+.itemName::marker{
+    color: var(--secondary);
+}
+
+.itemInfo{
+    font-size: 16px;
+    font-family: var(--font);
+    color: var(--text);
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.subheading{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: var(--font);
+    margin-bottom: 15px;
+    color: var(--text);
+
+}

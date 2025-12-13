@@ -26,6 +26,9 @@ export default function NavigationBar() {
                             <a className={`nav-link ${styles.navLink}`} href="#skills">Skills</a>
                         </li>
                         <li className="nav-item">
+                            <a className={`nav-link ${styles.navLink}`} href="#certifications">Certifications & Trainings</a>
+                        </li>                        
+                        <li className="nav-item">
                             <a className={`nav-link ${styles.navLink}`} href="#contact">Contact</a>
                         </li>
                     </ul>

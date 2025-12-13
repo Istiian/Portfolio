@@ -8,8 +8,8 @@ export default function SkillsSection(){
     return(
         <div className={styling.SkillsSection} id='skills'>
             <h2 className={styling.sectionHeading}>Skills & Technologies</h2>
-            <Container fluid="md">
-                <Row className={` mb-5`}>
+            <Container fluid="lg">
+                <Row >
                     <Col>
                         <h3 className={styling.skillHeadings}>Languages</h3>
                         <div className={styling.skillsContainer}>

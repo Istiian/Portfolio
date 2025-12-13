@@ -13,7 +13,7 @@ export default function LandingSection(){
                 <Button onClick={()=>{window.open("https://github.com/Istiian", "_blank")}} variant="primary" size="lg" className={styling.GithubBtn}><i className="fa-brands fa-github" style={{color:"#2c2c2c"}}></i> Github</Button>
             </div>
             <div className={`col-12 col-lg-5 d-flex  justify-content-center`} style={{}}>
-                <img src="../src/assets/Me.png" alt="My Picture" className={`${styling.mypic}`} />
+                <img src="../src/assets/Me.png" alt="My Picture" className={`${styling.mypic} d-none d-lg-block`} />
             </div>
             
         </div>
