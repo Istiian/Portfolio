@@ -8,9 +8,9 @@ export default function SkillsSection(){
     return(
         <div className={styling.SkillsSection} id='skills'>
             <h2 className={styling.sectionHeading}>Skills & Technologies</h2>
-            <Container fluid="lg">
-                <Row >
-                    <Col>
+            <Container fluid="md">
+                <Row className={"mb-4"} >
+                    <Col md={6} xs={12}>
                         <h3 className={styling.skillHeadings}>Languages</h3>
                         <div className={styling.skillsContainer}>
                             <span className={styling.skills}>HTML</span>
@@ -21,7 +21,7 @@ export default function SkillsSection(){
                         </div>
                         
                     </Col>
-                    <Col>
+                    <Col md={6} xs={12} className='mb-md-4'>
                         <h3 className={styling.skillHeadings}>Database</h3>
                         <div className={styling.skillsContainer}>
                             <span className={styling.skills}>MySQL</span>
@@ -30,18 +30,16 @@ export default function SkillsSection(){
                     </Col>
                 </Row>
                 <Row>
-                    <Col>
+                    <Col md={6} xs={12} className='mb-md-4'>
                         <h3 className={styling.skillHeadings}>Frameworks & Libraries</h3>
                         <div className={styling.skillsContainer}>
                             <span className={styling.skills}>ReactJS</span>
                             <span className={styling.skills}>ExressJS</span>
                             <span className={styling.skills}>Bootsrap</span>
                         </div>
-                        
-                        
                     </Col>
 
-                    <Col>
+                    <Col md={6} xs={12} className='mb-md-4'>
                         <h3 className={styling.skillHeadings}>Tools</h3>
                         <div className={styling.skillsContainer}>
                             <span className={styling.skills}>Git</span>

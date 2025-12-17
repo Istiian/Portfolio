@@ -4,6 +4,7 @@ import styling from "../styles/ProjectSection.module.css";
 import Project1 from "../assets/Project1.png";
 import Project2 from "../assets/Project2.png";
 import Project3 from "../assets/Project3.png";
+import Project4 from "../assets/Project4.png";
 export default function ProjectSection() {
 
     const Projects = [
@@ -33,6 +34,15 @@ export default function ProjectSection() {
             devTools: ["Express JS", "CSS", "Javascript", "MongoDB", "Bootstrap"],
             image: Project3,
             link: "https://github.com/Istiian/Quiz_Game",
+        },
+        {
+            id: 4,
+            name: "Room Management and Reservation System",
+            description:
+                "Designed and implemented both front-end and back-end features, incorporating efficient database management and mobile responsive layouts to enhance usability.",
+            devTools: ["Express JS", "CSS", "Javascript", "MySQL"],
+            image: Project4,
+            link: "https://github.com/Istiian/Room-Management-System",
         },
 
     ]
